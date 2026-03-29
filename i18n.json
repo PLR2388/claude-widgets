@@ -1,0 +1,782 @@
+{
+  "fr": {
+    "peakSlot": "⚠ Peak : 8h–14h ET (semaine)",
+    "goodSlot": "✓ Off-peak : reste du temps + weekends",
+    "weekend": {
+      "label": "Weekend — limites optimales",
+      "sub": "Profite-en pour lancer tes tâches agentic longues !",
+      "next": "Reprise weekday dans {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Peak hours — limites réduites",
+      "sub": "Évite les tâches intensives maintenant. Lance-les après 14h ET.",
+      "next": "Off-peak dans {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Off-peak — limites normales",
+      "sub": "Bon moment pour coder ! Tokens plein tarif.",
+      "nextShort": "Peak dans {h}{m}min",
+      "nextLong": "Peak dans {h}h{m} (lun–ven 8h–14h ET)"
+    }
+  },
+  "en": {
+    "peakSlot": "⚠ Peak: 8am–2pm ET (weekdays)",
+    "goodSlot": "✓ Off-peak: all other times + weekends",
+    "weekend": {
+      "label": "Weekend — optimal limits",
+      "sub": "Great time to run long agentic tasks!",
+      "next": "Weekday resumes in {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Peak hours — reduced limits",
+      "sub": "Avoid intensive tasks now. Run them after 2pm ET.",
+      "next": "Off-peak in {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Off-peak — normal limits",
+      "sub": "Good time to code! Full token rate.",
+      "nextShort": "Peak in {h}{m}min",
+      "nextLong": "Peak in {h}h{m} (Mon–Fri 8am–2pm ET)"
+    }
+  },
+  "es": {
+    "peakSlot": "⚠ Pico: 8h–14h ET (días laborables)",
+    "goodSlot": "✓ Fuera de pico: resto del tiempo + fines de semana",
+    "weekend": {
+      "label": "Fin de semana — límites óptimos",
+      "sub": "¡Buen momento para lanzar tareas agentic largas!",
+      "next": "Día laboral en {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Horas pico — límites reducidos",
+      "sub": "Evita tareas intensivas ahora. Lánzalas después de las 14h ET.",
+      "next": "Fuera de pico en {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Fuera de pico — límites normales",
+      "sub": "¡Buen momento para programar! Tarifa completa de tokens.",
+      "nextShort": "Pico en {h}{m}min",
+      "nextLong": "Pico en {h}h{m} (lun–vie 8h–14h ET)"
+    }
+  },
+  "de": {
+    "peakSlot": "⚠ Spitzenzeit: 8–14 Uhr ET (Werktage)",
+    "goodSlot": "✓ Nebenzeit: restliche Zeit + Wochenenden",
+    "weekend": {
+      "label": "Wochenende — optimale Limits",
+      "sub": "Perfekt für lange agentische Aufgaben!",
+      "next": "Werktag beginnt in {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Spitzenzeiten — reduzierte Limits",
+      "sub": "Vermeide jetzt intensive Aufgaben. Starte sie nach 14 Uhr ET.",
+      "next": "Nebenzeit in {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Nebenzeit — normale Limits",
+      "sub": "Guter Zeitpunkt zum Coden! Volle Token-Rate.",
+      "nextShort": "Spitzenzeit in {h}{m}min",
+      "nextLong": "Spitzenzeit in {h}h{m} (Mo–Fr 8–14 Uhr ET)"
+    }
+  },
+  "it": {
+    "peakSlot": "⚠ Picco: 8–14 ET (giorni feriali)",
+    "goodSlot": "✓ Fuori picco: resto del tempo + weekend",
+    "weekend": {
+      "label": "Weekend — limiti ottimali",
+      "sub": "Ottimo momento per lanciare task agentic lunghi!",
+      "next": "Giorno feriale tra {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Ore di picco — limiti ridotti",
+      "sub": "Evita task intensivi ora. Lanciali dopo le 14 ET.",
+      "next": "Fuori picco tra {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Fuori picco — limiti normali",
+      "sub": "Buon momento per programmare! Tariffa token piena.",
+      "nextShort": "Picco tra {h}{m}min",
+      "nextLong": "Picco tra {h}h{m} (lun–ven 8–14 ET)"
+    }
+  },
+  "pt": {
+    "peakSlot": "⚠ Pico: 8h–14h ET (dias úteis)",
+    "goodSlot": "✓ Fora do pico: resto do tempo + fins de semana",
+    "weekend": {
+      "label": "Fim de semana — limites ótimos",
+      "sub": "Ótimo momento para rodar tarefas agentic longas!",
+      "next": "Dia útil em {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Horário de pico — limites reduzidos",
+      "sub": "Evite tarefas intensivas agora. Execute após as 14h ET.",
+      "next": "Fora do pico em {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Fora do pico — limites normais",
+      "sub": "Bom momento para codar! Taxa total de tokens.",
+      "nextShort": "Pico em {h}{m}min",
+      "nextLong": "Pico em {h}h{m} (seg–sex 8h–14h ET)"
+    }
+  },
+  "nl": {
+    "peakSlot": "⚠ Piek: 8–14u ET (werkdagen)",
+    "goodSlot": "✓ Daluren: overige tijd + weekenden",
+    "weekend": {
+      "label": "Weekend — optimale limieten",
+      "sub": "Goed moment voor lange agentische taken!",
+      "next": "Werkdag hervat over {h}u{m}"
+    },
+    "peak": {
+      "label": "⚠ Piekuren — verlaagde limieten",
+      "sub": "Vermijd nu intensieve taken. Start ze na 14u ET.",
+      "next": "Daluren over {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Daluren — normale limieten",
+      "sub": "Goed moment om te coderen! Volledig token-tarief.",
+      "nextShort": "Piek over {h}{m}min",
+      "nextLong": "Piek over {h}u{m} (ma–vr 8–14u ET)"
+    }
+  },
+  "pl": {
+    "peakSlot": "⚠ Szczyt: 8–14 ET (dni robocze)",
+    "goodSlot": "✓ Poza szczytem: reszta czasu + weekendy",
+    "weekend": {
+      "label": "Weekend — optymalne limity",
+      "sub": "Świetny czas na długie zadania agentyczne!",
+      "next": "Dzień roboczy za {h}godz.{m}"
+    },
+    "peak": {
+      "label": "⚠ Godziny szczytu — obniżone limity",
+      "sub": "Unikaj intensywnych zadań. Uruchom je po 14:00 ET.",
+      "next": "Poza szczytem za {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Poza szczytem — normalne limity",
+      "sub": "Dobry moment na kodowanie! Pełna stawka tokenów.",
+      "nextShort": "Szczyt za {h}{m}min",
+      "nextLong": "Szczyt za {h}godz.{m} (pon–pt 8–14 ET)"
+    }
+  },
+  "ru": {
+    "peakSlot": "⚠ Пик: 8–14 ET (будни)",
+    "goodSlot": "✓ Вне пика: остальное время + выходные",
+    "weekend": {
+      "label": "Выходные — оптимальные лимиты",
+      "sub": "Отличное время для длинных агентных задач!",
+      "next": "Будни через {h}ч{m}"
+    },
+    "peak": {
+      "label": "⚠ Часы пик — сниженные лимиты",
+      "sub": "Избегайте интенсивных задач. Запускайте после 14:00 ET.",
+      "next": "Вне пика через {h}{m}мин"
+    },
+    "offPeak": {
+      "label": "✓ Вне пика — нормальные лимиты",
+      "sub": "Хорошее время для кода! Полная ставка токенов.",
+      "nextShort": "Пик через {h}{m}мин",
+      "nextLong": "Пик через {h}ч{m} (пн–пт 8–14 ET)"
+    }
+  },
+  "uk": {
+    "peakSlot": "⚠ Пік: 8–14 ET (будні)",
+    "goodSlot": "✓ Поза піком: решта часу + вихідні",
+    "weekend": {
+      "label": "Вихідні — оптимальні ліміти",
+      "sub": "Чудовий час для довгих агентних задач!",
+      "next": "Будні через {h}год{m}"
+    },
+    "peak": {
+      "label": "⚠ Години пік — знижені ліміти",
+      "sub": "Уникайте інтенсивних задач. Запускайте після 14:00 ET.",
+      "next": "Поза піком через {h}{m}хв"
+    },
+    "offPeak": {
+      "label": "✓ Поза піком — нормальні ліміти",
+      "sub": "Гарний час для коду! Повна ставка токенів.",
+      "nextShort": "Пік через {h}{m}хв",
+      "nextLong": "Пік через {h}год{m} (пн–пт 8–14 ET)"
+    }
+  },
+  "ja": {
+    "peakSlot": "⚠ ピーク: 8–14時 ET（平日）",
+    "goodSlot": "✓ オフピーク: その他の時間 + 週末",
+    "weekend": {
+      "label": "週末 — 最適なリミット",
+      "sub": "長時間のエージェントタスクに最適！",
+      "next": "平日まで {h}時間{m}"
+    },
+    "peak": {
+      "label": "⚠ ピーク時間 — リミット低下",
+      "sub": "集中的なタスクは避けてください。14時ET以降に実行を。",
+      "next": "オフピークまで {h}{m}分"
+    },
+    "offPeak": {
+      "label": "✓ オフピーク — 通常リミット",
+      "sub": "コーディングに最適！フルトークンレート。",
+      "nextShort": "ピークまで {h}{m}分",
+      "nextLong": "ピークまで {h}時間{m} (月–金 8–14時 ET)"
+    }
+  },
+  "ko": {
+    "peakSlot": "⚠ 피크: 오전 8시–오후 2시 ET (평일)",
+    "goodSlot": "✓ 오프피크: 나머지 시간 + 주말",
+    "weekend": {
+      "label": "주말 — 최적 한도",
+      "sub": "긴 에이전틱 작업을 실행하기 좋은 시간!",
+      "next": "평일까지 {h}시간{m}"
+    },
+    "peak": {
+      "label": "⚠ 피크 시간 — 한도 감소",
+      "sub": "지금은 집중 작업을 피하세요. 오후 2시 ET 이후에 실행하세요.",
+      "next": "오프피크까지 {h}{m}분"
+    },
+    "offPeak": {
+      "label": "✓ 오프피크 — 정상 한도",
+      "sub": "코딩하기 좋은 시간! 전체 토큰 비율.",
+      "nextShort": "피크까지 {h}{m}분",
+      "nextLong": "피크까지 {h}시간{m} (월–금 오전 8시–오후 2시 ET)"
+    }
+  },
+  "zh": {
+    "peakSlot": "⚠ 高峰: 8–14时 ET（工作日）",
+    "goodSlot": "✓ 非高峰: 其余时间 + 周末",
+    "weekend": {
+      "label": "周末 — 最优限额",
+      "sub": "适合运行长时间代理任务！",
+      "next": "工作日还有 {h}小时{m}"
+    },
+    "peak": {
+      "label": "⚠ 高峰时段 — 限额降低",
+      "sub": "现在避免密集任务。请在14时ET之后运行。",
+      "next": "非高峰还有 {h}{m}分钟"
+    },
+    "offPeak": {
+      "label": "✓ 非高峰 — 正常限额",
+      "sub": "编码好时机！全额令牌速率。",
+      "nextShort": "高峰还有 {h}{m}分钟",
+      "nextLong": "高峰还有 {h}小时{m} (周一至周五 8–14时 ET)"
+    }
+  },
+  "zh-TW": {
+    "peakSlot": "⚠ 尖峰: 8–14時 ET（工作日）",
+    "goodSlot": "✓ 離峰: 其餘時間 + 週末",
+    "weekend": {
+      "label": "週末 — 最佳限額",
+      "sub": "適合執行長時間代理任務！",
+      "next": "工作日還有 {h}小時{m}"
+    },
+    "peak": {
+      "label": "⚠ 尖峰時段 — 限額降低",
+      "sub": "現在避免密集任務。請在14時ET之後執行。",
+      "next": "離峰還有 {h}{m}分鐘"
+    },
+    "offPeak": {
+      "label": "✓ 離峰 — 正常限額",
+      "sub": "寫程式好時機！全額令牌速率。",
+      "nextShort": "尖峰還有 {h}{m}分鐘",
+      "nextLong": "尖峰還有 {h}小時{m} (週一至週五 8–14時 ET)"
+    }
+  },
+  "ar": {
+    "peakSlot": "⚠ ذروة: 8–14 ET (أيام العمل)",
+    "goodSlot": "✓ خارج الذروة: باقي الوقت + عطل نهاية الأسبوع",
+    "weekend": {
+      "label": "عطلة نهاية الأسبوع — حدود مثالية",
+      "sub": "وقت رائع لتشغيل المهام الطويلة!",
+      "next": "يوم العمل خلال {h}س{m}"
+    },
+    "peak": {
+      "label": "⚠ ساعات الذروة — حدود مخفضة",
+      "sub": "تجنب المهام المكثفة الآن. شغّلها بعد الساعة 14 ET.",
+      "next": "خارج الذروة خلال {h}{m}د"
+    },
+    "offPeak": {
+      "label": "✓ خارج الذروة — حدود عادية",
+      "sub": "وقت جيد للبرمجة! معدل رموز كامل.",
+      "nextShort": "الذروة خلال {h}{m}د",
+      "nextLong": "الذروة خلال {h}س{m} (إثنين–جمعة 8–14 ET)"
+    }
+  },
+  "he": {
+    "peakSlot": "⚠ שיא: 8–14 ET (ימי חול)",
+    "goodSlot": "✓ מחוץ לשיא: שאר הזמן + סופ\"ש",
+    "weekend": {
+      "label": "סוף שבוע — מגבלות מיטביות",
+      "sub": "זמן מצוין למשימות ארוכות!",
+      "next": "יום חול בעוד {h}שע׳{m}"
+    },
+    "peak": {
+      "label": "⚠ שעות שיא — מגבלות מופחתות",
+      "sub": "הימנעו ממשימות אינטנסיביות כעת. הריצו אחרי 14:00 ET.",
+      "next": "מחוץ לשיא בעוד {h}{m}ד׳"
+    },
+    "offPeak": {
+      "label": "✓ מחוץ לשיא — מגבלות רגילות",
+      "sub": "זמן טוב לקוד! תעריף טוקנים מלא.",
+      "nextShort": "שיא בעוד {h}{m}ד׳",
+      "nextLong": "שיא בעוד {h}שע׳{m} (שני–שישי 8–14 ET)"
+    }
+  },
+  "tr": {
+    "peakSlot": "⚠ Yoğun: 8–14 ET (hafta içi)",
+    "goodSlot": "✓ Sakin: diğer saatler + hafta sonları",
+    "weekend": {
+      "label": "Hafta sonu — optimal limitler",
+      "sub": "Uzun agentik görevler için harika zaman!",
+      "next": "Hafta içi {h}sa{m} sonra"
+    },
+    "peak": {
+      "label": "⚠ Yoğun saatler — düşük limitler",
+      "sub": "Yoğun görevlerden kaçının. 14:00 ET sonrasında çalıştırın.",
+      "next": "Sakin saatlere {h}{m}dk"
+    },
+    "offPeak": {
+      "label": "✓ Sakin saatler — normal limitler",
+      "sub": "Kodlamak için iyi zaman! Tam token oranı.",
+      "nextShort": "Yoğun saatlere {h}{m}dk",
+      "nextLong": "Yoğun saatlere {h}sa{m} (Pzt–Cum 8–14 ET)"
+    }
+  },
+  "sv": {
+    "peakSlot": "⚠ Topptid: 8–14 ET (vardagar)",
+    "goodSlot": "✓ Lågtrafik: övrig tid + helger",
+    "weekend": {
+      "label": "Helg — optimala gränser",
+      "sub": "Bra tid för långa agentiska uppgifter!",
+      "next": "Vardag om {h}t{m}"
+    },
+    "peak": {
+      "label": "⚠ Topptimmar — sänkta gränser",
+      "sub": "Undvik intensiva uppgifter nu. Kör dem efter 14:00 ET.",
+      "next": "Lågtrafik om {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Lågtrafik — normala gränser",
+      "sub": "Bra tid att koda! Full token-hastighet.",
+      "nextShort": "Topptid om {h}{m}min",
+      "nextLong": "Topptid om {h}t{m} (mån–fre 8–14 ET)"
+    }
+  },
+  "da": {
+    "peakSlot": "⚠ Spidsbelastning: 8–14 ET (hverdage)",
+    "goodSlot": "✓ Lavbelastning: resten af tiden + weekender",
+    "weekend": {
+      "label": "Weekend — optimale grænser",
+      "sub": "Godt tidspunkt for lange agentiske opgaver!",
+      "next": "Hverdag om {h}t{m}"
+    },
+    "peak": {
+      "label": "⚠ Spidstimer — reducerede grænser",
+      "sub": "Undgå intensive opgaver nu. Kør dem efter kl. 14 ET.",
+      "next": "Lavbelastning om {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Lavbelastning — normale grænser",
+      "sub": "Godt tidspunkt at kode! Fuld token-rate.",
+      "nextShort": "Spidsbelastning om {h}{m}min",
+      "nextLong": "Spidsbelastning om {h}t{m} (man–fre 8–14 ET)"
+    }
+  },
+  "no": {
+    "peakSlot": "⚠ Topptid: 8–14 ET (hverdager)",
+    "goodSlot": "✓ Lavtrafikk: resten av tiden + helger",
+    "weekend": {
+      "label": "Helg — optimale grenser",
+      "sub": "Flott tid for lange agentiske oppgaver!",
+      "next": "Hverdag om {h}t{m}"
+    },
+    "peak": {
+      "label": "⚠ Topptimer — reduserte grenser",
+      "sub": "Unngå intensive oppgaver nå. Kjør dem etter kl. 14 ET.",
+      "next": "Lavtrafikk om {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Lavtrafikk — normale grenser",
+      "sub": "Godt tidspunkt å kode! Full token-rate.",
+      "nextShort": "Topptid om {h}{m}min",
+      "nextLong": "Topptid om {h}t{m} (man–fre 8–14 ET)"
+    }
+  },
+  "fi": {
+    "peakSlot": "⚠ Ruuhka: 8–14 ET (arkipäivät)",
+    "goodSlot": "✓ Hiljaista: muu aika + viikonloput",
+    "weekend": {
+      "label": "Viikonloppu — optimaaliset rajat",
+      "sub": "Loistava aika pitkille agenttitehtäville!",
+      "next": "Arkipäivä {h}t{m} kuluttua"
+    },
+    "peak": {
+      "label": "⚠ Ruuhka-aika — alennetut rajat",
+      "sub": "Vältä intensiivisiä tehtäviä nyt. Aja ne klo 14 ET jälkeen.",
+      "next": "Hiljaista {h}{m}min kuluttua"
+    },
+    "offPeak": {
+      "label": "✓ Hiljaista — normaalit rajat",
+      "sub": "Hyvä aika koodata! Täysi token-nopeus.",
+      "nextShort": "Ruuhka {h}{m}min kuluttua",
+      "nextLong": "Ruuhka {h}t{m} kuluttua (ma–pe 8–14 ET)"
+    }
+  },
+  "cs": {
+    "peakSlot": "⚠ Špička: 8–14 ET (pracovní dny)",
+    "goodSlot": "✓ Mimo špičku: zbytek času + víkendy",
+    "weekend": {
+      "label": "Víkend — optimální limity",
+      "sub": "Skvělý čas na dlouhé agentní úlohy!",
+      "next": "Pracovní den za {h}hod{m}"
+    },
+    "peak": {
+      "label": "⚠ Špičkové hodiny — snížené limity",
+      "sub": "Vyhněte se intenzivním úlohám. Spusťte je po 14:00 ET.",
+      "next": "Mimo špičku za {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Mimo špičku — normální limity",
+      "sub": "Dobrý čas na kódování! Plná sazba tokenů.",
+      "nextShort": "Špička za {h}{m}min",
+      "nextLong": "Špička za {h}hod{m} (po–pá 8–14 ET)"
+    }
+  },
+  "ro": {
+    "peakSlot": "⚠ Vârf: 8–14 ET (zile lucrătoare)",
+    "goodSlot": "✓ În afara vârfului: restul timpului + weekenduri",
+    "weekend": {
+      "label": "Weekend — limite optime",
+      "sub": "Moment excelent pentru sarcini agentic lungi!",
+      "next": "Zi lucrătoare în {h}ore{m}"
+    },
+    "peak": {
+      "label": "⚠ Ore de vârf — limite reduse",
+      "sub": "Evitați sarcinile intensive acum. Rulați-le după ora 14 ET.",
+      "next": "În afara vârfului în {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ În afara vârfului — limite normale",
+      "sub": "Moment bun pentru programare! Rată completă de tokeni.",
+      "nextShort": "Vârf în {h}{m}min",
+      "nextLong": "Vârf în {h}ore{m} (lun–vin 8–14 ET)"
+    }
+  },
+  "hu": {
+    "peakSlot": "⚠ Csúcs: 8–14 ET (hétköznap)",
+    "goodSlot": "✓ Csúcson kívül: többi idő + hétvégék",
+    "weekend": {
+      "label": "Hétvége — optimális korlátok",
+      "sub": "Remek idő hosszú ügynöki feladatokra!",
+      "next": "Hétköznap {h}ó{m} múlva"
+    },
+    "peak": {
+      "label": "⚠ Csúcsidő — csökkentett korlátok",
+      "sub": "Kerüld az intenzív feladatokat. Futtasd 14:00 ET után.",
+      "next": "Csúcson kívül {h}{m}perc múlva"
+    },
+    "offPeak": {
+      "label": "✓ Csúcson kívül — normál korlátok",
+      "sub": "Jó idő kódolni! Teljes token-ráta.",
+      "nextShort": "Csúcs {h}{m}perc múlva",
+      "nextLong": "Csúcs {h}ó{m} múlva (hé–pé 8–14 ET)"
+    }
+  },
+  "el": {
+    "peakSlot": "⚠ Αιχμή: 8–14 ET (καθημερινές)",
+    "goodSlot": "✓ Εκτός αιχμής: υπόλοιπος χρόνος + Σ/Κ",
+    "weekend": {
+      "label": "Σαββατοκύριακο — βέλτιστα όρια",
+      "sub": "Ιδανικός χρόνος για μεγάλες εργασίες!",
+      "next": "Καθημερινή σε {h}ω{m}"
+    },
+    "peak": {
+      "label": "⚠ Ώρες αιχμής — μειωμένα όρια",
+      "sub": "Αποφύγετε εντατικές εργασίες. Εκτελέστε μετά τις 14:00 ET.",
+      "next": "Εκτός αιχμής σε {h}{m}λ"
+    },
+    "offPeak": {
+      "label": "✓ Εκτός αιχμής — κανονικά όρια",
+      "sub": "Καλή ώρα για κώδικα! Πλήρης ρυθμός token.",
+      "nextShort": "Αιχμή σε {h}{m}λ",
+      "nextLong": "Αιχμή σε {h}ω{m} (Δευ–Παρ 8–14 ET)"
+    }
+  },
+  "bg": {
+    "peakSlot": "⚠ Пик: 8–14 ET (делнични дни)",
+    "goodSlot": "✓ Извън пик: останалото време + уикенди",
+    "weekend": {
+      "label": "Уикенд — оптимални лимити",
+      "sub": "Страхотно време за дълги агентни задачи!",
+      "next": "Делничен ден след {h}ч{m}"
+    },
+    "peak": {
+      "label": "⚠ Пикови часове — намалени лимити",
+      "sub": "Избягвайте интензивни задачи. Стартирайте след 14:00 ET.",
+      "next": "Извън пик след {h}{m}мин"
+    },
+    "offPeak": {
+      "label": "✓ Извън пик — нормални лимити",
+      "sub": "Добро време за кодене! Пълна ставка токени.",
+      "nextShort": "Пик след {h}{m}мин",
+      "nextLong": "Пик след {h}ч{m} (пон–пет 8–14 ET)"
+    }
+  },
+  "hr": {
+    "peakSlot": "⚠ Vršno: 8–14 ET (radni dani)",
+    "goodSlot": "✓ Izvan vrška: ostalo vrijeme + vikendi",
+    "weekend": {
+      "label": "Vikend — optimalni limiti",
+      "sub": "Odlično vrijeme za dugačke agentske zadatke!",
+      "next": "Radni dan za {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Vršni sati — smanjeni limiti",
+      "sub": "Izbjegavajte intenzivne zadatke. Pokrenite ih nakon 14:00 ET.",
+      "next": "Izvan vrška za {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Izvan vrška — normalni limiti",
+      "sub": "Dobro vrijeme za kodiranje! Puna stopa tokena.",
+      "nextShort": "Vršno za {h}{m}min",
+      "nextLong": "Vršno za {h}h{m} (pon–pet 8–14 ET)"
+    }
+  },
+  "sk": {
+    "peakSlot": "⚠ Špička: 8–14 ET (pracovné dni)",
+    "goodSlot": "✓ Mimo špičku: zvyšok času + víkendy",
+    "weekend": {
+      "label": "Víkend — optimálne limity",
+      "sub": "Skvelý čas na dlhé agentné úlohy!",
+      "next": "Pracovný deň za {h}hod{m}"
+    },
+    "peak": {
+      "label": "⚠ Špičkové hodiny — znížené limity",
+      "sub": "Vyhnite sa intenzívnym úlohám. Spustite ich po 14:00 ET.",
+      "next": "Mimo špičku za {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Mimo špičku — normálne limity",
+      "sub": "Dobrý čas na kódovanie! Plná sadzba tokenov.",
+      "nextShort": "Špička za {h}{m}min",
+      "nextLong": "Špička za {h}hod{m} (po–pi 8–14 ET)"
+    }
+  },
+  "th": {
+    "peakSlot": "⚠ ช่วงพีค: 8–14 ET (วันทำงาน)",
+    "goodSlot": "✓ นอกพีค: เวลาอื่น + สุดสัปดาห์",
+    "weekend": {
+      "label": "สุดสัปดาห์ — ลิมิตเหมาะสม",
+      "sub": "เวลาดีสำหรับงาน agentic ยาวๆ!",
+      "next": "วันทำงานใน {h}ชม.{m}"
+    },
+    "peak": {
+      "label": "⚠ ช่วงพีค — ลิมิตลดลง",
+      "sub": "หลีกเลี่ยงงานหนักตอนนี้ รันหลัง 14:00 ET",
+      "next": "นอกพีคใน {h}{m}นาที"
+    },
+    "offPeak": {
+      "label": "✓ นอกพีค — ลิมิตปกติ",
+      "sub": "เวลาดีสำหรับเขียนโค้ด! อัตราโทเค็นเต็ม",
+      "nextShort": "พีคใน {h}{m}นาที",
+      "nextLong": "พีคใน {h}ชม.{m} (จ–ศ 8–14 ET)"
+    }
+  },
+  "vi": {
+    "peakSlot": "⚠ Cao điểm: 8–14 ET (ngày thường)",
+    "goodSlot": "✓ Ngoài cao điểm: thời gian còn lại + cuối tuần",
+    "weekend": {
+      "label": "Cuối tuần — giới hạn tối ưu",
+      "sub": "Thời điểm tuyệt vời cho tác vụ agentic dài!",
+      "next": "Ngày thường trong {h}g{m}"
+    },
+    "peak": {
+      "label": "⚠ Giờ cao điểm — giới hạn giảm",
+      "sub": "Tránh tác vụ nặng. Chạy sau 14:00 ET.",
+      "next": "Ngoài cao điểm trong {h}{m}phút"
+    },
+    "offPeak": {
+      "label": "✓ Ngoài cao điểm — giới hạn bình thường",
+      "sub": "Thời điểm tốt để code! Tốc độ token đầy đủ.",
+      "nextShort": "Cao điểm trong {h}{m}phút",
+      "nextLong": "Cao điểm trong {h}g{m} (T2–T6 8–14 ET)"
+    }
+  },
+  "id": {
+    "peakSlot": "⚠ Puncak: 8–14 ET (hari kerja)",
+    "goodSlot": "✓ Non-puncak: waktu lainnya + akhir pekan",
+    "weekend": {
+      "label": "Akhir pekan — batas optimal",
+      "sub": "Waktu bagus untuk tugas agentic panjang!",
+      "next": "Hari kerja dalam {h}j{m}"
+    },
+    "peak": {
+      "label": "⚠ Jam puncak — batas dikurangi",
+      "sub": "Hindari tugas intensif sekarang. Jalankan setelah jam 14 ET.",
+      "next": "Non-puncak dalam {h}{m}mnt"
+    },
+    "offPeak": {
+      "label": "✓ Non-puncak — batas normal",
+      "sub": "Waktu bagus untuk ngoding! Rate token penuh.",
+      "nextShort": "Puncak dalam {h}{m}mnt",
+      "nextLong": "Puncak dalam {h}j{m} (Sen–Jum 8–14 ET)"
+    }
+  },
+  "ms": {
+    "peakSlot": "⚠ Puncak: 8–14 ET (hari bekerja)",
+    "goodSlot": "✓ Luar puncak: masa lain + hujung minggu",
+    "weekend": {
+      "label": "Hujung minggu — had optimum",
+      "sub": "Masa terbaik untuk tugas agentic panjang!",
+      "next": "Hari bekerja dalam {h}j{m}"
+    },
+    "peak": {
+      "label": "⚠ Waktu puncak — had dikurangkan",
+      "sub": "Elak tugas intensif sekarang. Jalankan selepas 14:00 ET.",
+      "next": "Luar puncak dalam {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Luar puncak — had normal",
+      "sub": "Masa baik untuk kod! Kadar token penuh.",
+      "nextShort": "Puncak dalam {h}{m}min",
+      "nextLong": "Puncak dalam {h}j{m} (Isn–Jum 8–14 ET)"
+    }
+  },
+  "hi": {
+    "peakSlot": "⚠ पीक: 8–14 ET (कार्यदिवस)",
+    "goodSlot": "✓ ऑफ-पीक: बाकी समय + सप्ताहांत",
+    "weekend": {
+      "label": "सप्ताहांत — इष्टतम सीमाएं",
+      "sub": "लंबे एजेंटिक कार्यों के लिए बढ़िया समय!",
+      "next": "कार्यदिवस {h}घं{m} में"
+    },
+    "peak": {
+      "label": "⚠ पीक आवर्स — सीमाएं कम",
+      "sub": "अभी गहन कार्यों से बचें। 14:00 ET के बाद चलाएं।",
+      "next": "ऑफ-पीक {h}{m}मि. में"
+    },
+    "offPeak": {
+      "label": "✓ ऑफ-पीक — सामान्य सीमाएं",
+      "sub": "कोडिंग का अच्छा समय! पूर्ण टोकन दर।",
+      "nextShort": "पीक {h}{m}मि. में",
+      "nextLong": "पीक {h}घं{m} में (सोम–शुक्र 8–14 ET)"
+    }
+  },
+  "bn": {
+    "peakSlot": "⚠ পিক: ৮–১৪ ET (কর্মদিবস)",
+    "goodSlot": "✓ অফ-পিক: বাকি সময় + সপ্তাহান্ত",
+    "weekend": {
+      "label": "সপ্তাহান্ত — সর্বোত্তম সীমা",
+      "sub": "দীর্ঘ এজেন্টিক কাজের জন্য দারুণ সময়!",
+      "next": "কর্মদিবস {h}ঘণ্টা{m} পরে"
+    },
+    "peak": {
+      "label": "⚠ পিক আওয়ার — সীমা কমানো",
+      "sub": "এখন নিবিড় কাজ এড়িয়ে চলুন। ১৪:০০ ET পরে চালান।",
+      "next": "অফ-পিক {h}{m}মিনিটে"
+    },
+    "offPeak": {
+      "label": "✓ অফ-পিক — স্বাভাবিক সীমা",
+      "sub": "কোডিংয়ের ভালো সময়! পূর্ণ টোকেন রেট।",
+      "nextShort": "পিক {h}{m}মিনিটে",
+      "nextLong": "পিক {h}ঘণ্টা{m} পরে (সোম–শুক্র ৮–১৪ ET)"
+    }
+  },
+  "ta": {
+    "peakSlot": "⚠ உச்சம்: 8–14 ET (வேலை நாட்கள்)",
+    "goodSlot": "✓ உச்சமில்லா: மீதி நேரம் + வார இறுதிகள்",
+    "weekend": {
+      "label": "வார இறுதி — சிறந்த வரம்புகள்",
+      "sub": "நீண்ட ஏஜென்டிக் பணிகளுக்கு சிறந்த நேரம்!",
+      "next": "வேலை நாள் {h}மணி{m} இல்"
+    },
+    "peak": {
+      "label": "⚠ உச்ச நேரம் — குறைக்கப்பட்ட வரம்புகள்",
+      "sub": "இப்போது தீவிர பணிகளைத் தவிர்க்கவும். 14:00 ET பிறகு இயக்கவும்.",
+      "next": "உச்சமில்லா {h}{m}நிமி இல்"
+    },
+    "offPeak": {
+      "label": "✓ உச்சமில்லா — இயல்பான வரம்புகள்",
+      "sub": "குறியீடு எழுத நல்ல நேரம்! முழு டோக்கன் விகிதம்.",
+      "nextShort": "உச்சம் {h}{m}நிமி இல்",
+      "nextLong": "உச்சம் {h}மணி{m} இல் (திங்–வெள் 8–14 ET)"
+    }
+  },
+  "fa": {
+    "peakSlot": "⚠ اوج: ۸–۱۴ ET (روزهای کاری)",
+    "goodSlot": "✓ خارج اوج: بقیه زمان + آخر هفته‌ها",
+    "weekend": {
+      "label": "آخر هفته — محدودیت‌های بهینه",
+      "sub": "زمان عالی برای وظایف طولانی!",
+      "next": "روز کاری تا {h}ساعت{m}"
+    },
+    "peak": {
+      "label": "⚠ ساعات اوج — محدودیت‌های کاهش‌یافته",
+      "sub": "از وظایف سنگین اجتناب کنید. بعد از ساعت ۱۴ ET اجرا کنید.",
+      "next": "خارج اوج تا {h}{m}دقیقه"
+    },
+    "offPeak": {
+      "label": "✓ خارج اوج — محدودیت‌های عادی",
+      "sub": "زمان خوبی برای کدنویسی! نرخ کامل توکن.",
+      "nextShort": "اوج تا {h}{m}دقیقه",
+      "nextLong": "اوج تا {h}ساعت{m} (دوشنبه–جمعه ۸–۱۴ ET)"
+    }
+  },
+  "ca": {
+    "peakSlot": "⚠ Pic: 8–14 ET (dies feiners)",
+    "goodSlot": "✓ Fora de pic: resta del temps + caps de setmana",
+    "weekend": {
+      "label": "Cap de setmana — límits òptims",
+      "sub": "Bon moment per llançar tasques agentic llargues!",
+      "next": "Dia feiner en {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Hores pic — límits reduïts",
+      "sub": "Evita tasques intensives ara. Llança-les després de les 14h ET.",
+      "next": "Fora de pic en {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Fora de pic — límits normals",
+      "sub": "Bon moment per programar! Tarifa completa de tokens.",
+      "nextShort": "Pic en {h}{m}min",
+      "nextLong": "Pic en {h}h{m} (dl–dv 8–14 ET)"
+    }
+  },
+  "eu": {
+    "peakSlot": "⚠ Gailurra: 8–14 ET (lanegunak)",
+    "goodSlot": "✓ Gailurretik kanpo: gainerako denbora + asteburuak",
+    "weekend": {
+      "label": "Asteburua — muga optimoak",
+      "sub": "Agentik zeregin luzeetarako une bikaina!",
+      "next": "Laneguna {h}ord{m} barru"
+    },
+    "peak": {
+      "label": "⚠ Gailur orduak — muga murriztuak",
+      "sub": "Saihestu zeregin intentsiboak orain. Exekutatu 14:00 ET ondoren.",
+      "next": "Gailurretik kanpo {h}{m}min barru"
+    },
+    "offPeak": {
+      "label": "✓ Gailurretik kanpo — muga normalak",
+      "sub": "Kodetzeko une ona! Token tasa osoa.",
+      "nextShort": "Gailurra {h}{m}min barru",
+      "nextLong": "Gailurra {h}ord{m} barru (al–or 8–14 ET)"
+    }
+  },
+  "gl": {
+    "peakSlot": "⚠ Pico: 8–14 ET (días laborables)",
+    "goodSlot": "✓ Fóra do pico: resto do tempo + fins de semana",
+    "weekend": {
+      "label": "Fin de semana — límites óptimos",
+      "sub": "Bo momento para lanzar tarefas agentic longas!",
+      "next": "Día laborable en {h}h{m}"
+    },
+    "peak": {
+      "label": "⚠ Horas pico — límites reducidos",
+      "sub": "Evita tarefas intensivas agora. Lánzaas despois das 14h ET.",
+      "next": "Fóra do pico en {h}{m}min"
+    },
+    "offPeak": {
+      "label": "✓ Fóra do pico — límites normais",
+      "sub": "Bo momento para programar! Taxa completa de tokens.",
+      "nextShort": "Pico en {h}{m}min",
+      "nextLong": "Pico en {h}h{m} (lun–ven 8–14 ET)"
+    }
+  }
+}
